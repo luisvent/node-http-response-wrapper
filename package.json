@@ -1,0 +1,23 @@
+{
+  "name": "node-http-response-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper for clean http response on Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisvent/node-http-response-wrapper.git"
+  },
+  "keywords": ["node", "http", "response", "express"],
+  "author": "Luis Ventura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisvent/node-http-response-wrapper/issues"
+  },
+  "homepage": "https://github.com/luisvent/node-http-response-wrapper#readme",
+  "dependencies": {
+    "http-status-utility": "^1.0.2"
+  }
+}
