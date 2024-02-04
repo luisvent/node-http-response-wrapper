@@ -2,7 +2,7 @@
 
 This library simplifies handling HTTP responses by providing utility functions to send common status codes with consistent responses. It also includes a mapping of HTTP status codes for easy reference.
 
-### After
+### Before
 ```js
 try{
     // bussines logic...
@@ -16,12 +16,12 @@ try{
     )
 }
 ```
-### Before
+### After
 ```js
 try{
     // bussines logic...
 }catch (e) {
-    notFound(res, 'User not found', e);
+    return notFound(res, 'User not found', e);
 }
 ```
 ## Installation
