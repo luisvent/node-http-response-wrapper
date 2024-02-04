@@ -1,5 +1,7 @@
 # HTTP response wrapper for Node.Js
 
+[![NPM](https://nodei.co/npm/http-status-utility.png)](https://www.npmjs.com/package/http-status-utility/)
+
 This library simplifies handling HTTP responses by providing utility functions to send common status codes with consistent responses. It also includes a mapping of HTTP status codes for easy reference.
 
 ### Before
